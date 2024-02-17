@@ -1,0 +1,79 @@
+body {
+    background-image: url(images/horror.jpg);
+    background-repeat: repeat-x;
+    background-color: #2c3e50;
+}
+
+@font-face {
+    font-family: 'Nightcore';
+    src: url('Shadow\ of\ the\ Deads\ Over.ttf');
+}
+
+h1 {
+    font-family: 'Nightcore';
+    color: rgb(241, 241, 241);
+    text-align: center;
+    word-spacing: 1.2em;
+    font-size: 32px;
+    text-shadow: 1px 6px 6px rgb(196, 17, 5);
+
+}
+
+.box {
+    border: 10px;
+    border-color: rgb(253, 253, 253);
+}
+
+.para {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: line-through;
+}
+
+@font-face {
+    font-family: 'Poppin';
+    src: url('Poppins-LightItalic.ttf');
+}
+
+.s-heading {
+    color: white;
+    text-align: center;
+    font-family: 'Poppin';
+
+}
+
+@font-face {
+    font-family: 'Popppin';
+    src: url('Poppins-ExtraBold.ttf');
+}
+
+h2.t-heading {
+    color: white;
+    text-align: center;
+    font-family: 'Popppin';
+    text-decoration: underline;
+}
+
+div img {
+    height: 300px;
+    width: 350px;
+}
+
+@font-face {
+    font-family: 'Poppiin';
+    src: url('Poppins-LightItalic.ttf');
+}
+
+p.paragraph {
+    color: white;
+    text-align: center;
+    font-family: 'Popppiin';
+
+}
+
+div.container {
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
